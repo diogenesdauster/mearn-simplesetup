@@ -1,0 +1,42 @@
+{
+  "name": "mern-simplesetup",
+  "version": "1.0.0",
+  "description": "a simple setup project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogenesdauster/mearn-simplesetup.git"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Diógenes Dauster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogenesdauster/mearn-simplesetup/issues"
+  },
+  "homepage": "https://github.com/diogenesdauster/mearn-simplesetup#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.9",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-middleware": "^3.5.1",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
