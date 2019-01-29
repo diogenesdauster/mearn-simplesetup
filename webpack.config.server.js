@@ -1,5 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
+var nodeExternals = require('webpack-node-externals');
 const CURRENT_WORKING_DIR = process.cwd()
 
 const config = {
@@ -18,7 +19,7 @@ const config = {
       {
         test: /\.js$/,
         exclude:/node_modules/,
-        user:['bable-loader']
+        use:['babel-loader']
       }
     ]
   }
