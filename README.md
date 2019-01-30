@@ -4,8 +4,8 @@ a simple setup project that using MongoDb + Express + React + Node with Babel + 
 
 - mern-simplesetup/
 - client/
- - HelloWorld.js
- - main.js
+  - HelloWorld.js
+  - main.js
 - server/
   - devBundle.js
   - server.js
